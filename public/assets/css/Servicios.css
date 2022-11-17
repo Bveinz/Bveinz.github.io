@@ -1,0 +1,50 @@
+#servicios{
+    background-color: rgb(242, 255, 255);
+    margin-top: 5%;
+}
+
+#servicios-parrafo{
+    color: black;
+    margin-top: 3%;
+    font-family: 'IBM Plex Sans JP', sans-serif;
+}
+
+#servicios-title{
+    font-family: 'IBM Plex Sans JP', sans-serif;
+    color: black;
+    margin-top: 10%;
+}
+
+#iservices{
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    border-radius: 10%;
+
+}
+
+#iservices:hover{
+    height: 40%;
+}
+
+#soldador{
+    width: 100%;
+    height: 700px;
+}
+
+@media (max-width:1000px) {
+    #soldador{
+        visibility: hidden;
+    }
+
+}
+
+
+
+#sello{
+  margin-top: 20px;
+  margin-bottom: 8%;
+}
+
+
+#vision{
+  color: white;
+}

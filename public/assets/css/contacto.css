@@ -1,0 +1,287 @@
+:root{
+    --MORADO: #726EFF;
+    --CALIPSO: #5AFFE7;
+    --VERDE: #08C6AB;
+    --GRIS: #37465B;
+    --NEGRO: #212B38;
+    --AZULREY: #0c4dd8;
+    --AZULEMPRESA: #107acc;
+    --Amarillo: #FFC928;
+    --Celeste: #6bbef9;
+    --empresa:  #03446A;
+}
+
+#containerform{
+    align-items: center;
+
+}
+
+#form-format{
+
+  background-color: #F6F6F6;
+  margin-bottom: 2%;
+  padding: 3%;
+}
+
+#borde{
+    background-color: var(--MORADO);
+}
+
+#contain{
+    align-items: center;
+    text-align: center;
+    margin-right: 0%;
+    margin-left: 30%;
+}
+
+#formulario{
+
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px var(--MORADO);
+        overflow: hidden;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        text-align: center;
+        transition: all 0.25s;
+        background-color:var(--AZUL2);        
+}
+
+#formulario:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 20px 16px 20px black;
+}
+
+#mail{
+    height: 100% ;
+    width: 100%;
+}
+
+
+#avisoderecha{
+    background-color:var(--empresa);
+    margin-top: 7%;
+    width: 60%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin-left: 0;
+    height: 60px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#avisoizquierda{
+    background-color:var(--empresa);
+    margin-top: 7%;
+    width: 60%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin-right: 0;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+@media (max-width: 1000px) {
+  #avisoizquierda{
+    height: 20%;
+  }
+}
+
+
+#contactanos{
+    margin-top: 10%;
+    font-size: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    text-align: center;
+
+
+    background-color: #0941b9;
+    border-radius: 4%;
+    color: wheat;
+
+
+}
+
+#boton_form{
+    margin: 15%;
+    background-color: #0941b9;
+    font-size: larger;
+    font-weight:700;
+}
+
+#boton_form:hover{
+    background-color: var(--MORADO);
+    color: #212B38;
+}
+
+#label{
+    font-weight: 500;
+    font-size: larger;
+    margin-top: 7%;
+
+}
+
+#mensaje{
+    height: 300px;
+    width: 100%;
+}
+
+/* css formulario */
+
+  
+  .main-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .left-container {
+    width: 500px;
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .right-container {
+    width: 500px;
+    height: 250px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 38px;
+    margin-left: 3.4%;
+  }
+  
+  h1 {
+    color: var(--AZULEMPRESA);
+    font-family: "Anton", sans-serif;
+    font-size: 3.5rem;
+  }
+  
+  p {
+    color: white;
+    margin: 25px;
+  }
+  .button {
+    margin-top: 15px;
+    width: 300px;
+    height: 35px;
+    border: 1px solid #f5cb5c;
+    border-radius: 5px;
+    background: #f5cb5c;
+    color: #19194d;
+    box-shadow: 2px 2px 2px #d9d9d9;
+    font-size: 1.2em;
+  }
+  
+  @media screen and (min-width: 1050px) {
+    .main-container {
+      flex-direction: row;
+    }
+  
+    .left-container {
+      min-height: 50%;
+      border-radius: 5px 0 0 5px;
+    }
+  
+    .right-container {
+      border-radius: 0 5px 5px 0;
+    }
+  }
+  
+  p {
+    margin-top: -25px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .left-container,
+    .right-container {
+      width: 100%;
+      height: 100%;
+      margin: auto;
+    }
+    .left-container{
+        margin-top: 20%;
+    }
+  }
+  
+#cohete{
+    width: 120px;
+    height: 200px;
+}
+
+#foter_contacto{
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+#sombra{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+#blanco{
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 7%;
+}
+
+#mapa{
+  width: 100%;
+  margin-bottom: 10%;
+}
+#title-map{
+  color: black;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 4%;
+  margin-bottom: 5%;
+ 
+
+}
+
+
+.input-field{
+  width: 100%;
+  border: none;
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  background-color: #F6F6F6;
+
+}
+
+
+#contact-title{
+  margin-bottom: 5%;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#negrita{
+  font-weight: bold;
+}
+
+.button_form{
+  background-color: transparent;
+  border: none;
+  font-size: larger;
+  width: 100%;
+}
+
